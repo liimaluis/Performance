@@ -17,14 +17,16 @@ function Formulario() {
     result = await result.json();
     console.warn(result);
     if (result) {
-      alert("Data saved succesfully");
+      alert("email enviado");
       setEmail("");
     }
   };
 
   return (
     <div className="formulario">
-      <h3>COLOQUE SEU EMAIL AQUI</h3>
+      <h3>
+        GARANTA SUA OPORTUNIDADE <br></br> COLOQUE SEU EMAIL AQUI
+      </h3>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>

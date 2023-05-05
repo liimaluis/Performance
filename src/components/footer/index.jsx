@@ -23,7 +23,7 @@ function Footer() {
               <p>
                 Somos um negócio digital que possui ação virtualmente e tem como
                 propósito desenvolver, melhorar e fazer empresas, líderes e
-                gestores
+                gestores...
               </p>
             </div>
 
