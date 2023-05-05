@@ -1,0 +1,14 @@
+.formulario{
+  padding: 50px 10px 10px 10px;
+  justify-items: center;
+}
+
+h3{
+  font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   color: aliceblue;
+}
+
+    .input{
+      width: 30%;
+    }

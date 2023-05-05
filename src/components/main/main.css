@@ -1,0 +1,67 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap";
+
+.ignicao{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 10px 0px;
+}
+
+
+.cards-empresas{
+    display: flex;
+    justify-content: space-around;
+    margin:100px 0px 100px 0px
+}
+
+h2 {
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     color: aliceblue;
+     margin: 50px 0px 10px 0px;
+}
+
+.conteudo-principal{
+    background: url(../../imgs/background.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 10px 0px 40px 0px;
+    color: aliceblue;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: aliceblue;
+  }
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.itens {
+	margin-top: 10px;
+    color: #F8F8F8;
+	line-height: 2.0;
+    font-size: 25px ;
+    list-style-type:none ;
+}
+
+.itens:before{
+	content: "★";
+    color: aqua;
+}
+
+@media screen and (max-widht: 768px){
+     .conteudo-principal{
+      display: block;
+    }
+  }
