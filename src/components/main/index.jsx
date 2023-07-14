@@ -5,17 +5,18 @@ import "./main.css";
 
 import Formulario from "../envio/index";
 import Cards from "../cards";
+import Video from "../video";
 
 function Main() {
   return (
     <main className="conteudo-principal" bg="dark">
+      <Container>
+        <Video />
+      </Container>
       <Formulario />
 
       <div className="col-12 text-center pb-5">
-        <h2 id="agnição">
-          Empresas que nós P.O.C (Performance, Organização &amp; Competência)
-          temos profunda agnição
-        </h2>
+        <h2 id="agnição">Empresas que nós P.O.C temos profunda agnição</h2>
       </div>
 
       <Container className="container">

@@ -1,0 +1,13 @@
+.div-video{
+    margin: 30px 20px 10px 100px;
+    align-items: center;
+}
+
+.titulo-video{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+    margin: 50px 0px 10px 0px;
+    border-style: solid;
+    border-color: aliceblue;
+}
