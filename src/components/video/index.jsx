@@ -7,9 +7,10 @@ export default function Video() {
   return (
     <div>
       <h3 className="titulo-video">
-        Se você estava buscando ser mais produtivo, obter melhores resultados e
-        triplicar a sua renda, você acaba de achar o melhor meio!<br></br>
-        Através de Performance Organização & Competência
+        Se você busca obter melhores resultados e possuir uma rede de contatos
+        sólida com potenciais clientes e grandes empresas, acaba de achar o
+        melhor meio!<br></br>
+        Através da Performance, Organização & Competência
       </h3>
 
       <div className="div-video">
